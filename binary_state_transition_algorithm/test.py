@@ -6,9 +6,14 @@ import numpy as np
 import random as rd
 
 a = np.array([[1,2,3],[4,5,6]])
-print(a)
+
 s1 = a[:,::-1][1,0:2]
 a[0,0:2] = a[:,::-1][0,0:2]
 #a[0:2, :] = s1
-print(s1)
-print(a)
+# s2 = str(s1)
+# print(s2)
+# b = {s2:1}
+# print(b)
+# print(s2)
+a = a.reshape(6,1)
+print(a.flatten())

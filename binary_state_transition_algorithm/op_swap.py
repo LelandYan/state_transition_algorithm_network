@@ -3,9 +3,10 @@ __author__ = 'LelandYan'
 __date__ = '2019/1/19 16:57'
 
 import numpy as np
-import random as rd
+from binary_state_transition_algorithm.op_getBest import op_getBest
+from binary_state_transition_algorithm.op_get_diffnumber import op_get_diffnumber
 
-def op_swap(oldBest,m,n):
+def op_swap(oldBest, m, n):
     '''
     :param oldBest:the matrix shape is (m*n,1)
     :param m: the number of sample
@@ -14,15 +15,18 @@ def op_swap(oldBest,m,n):
     '''
     size = m * n
     lens = len(oldBest)
-    oldBest = oldBest.reshape(lens,1)
-    oldBest = np.tile(oldBest,(m,1))
-    coefficient = np.eye(size,size)
+    oldBest = oldBest.reshape(lens, 1)
+    oldBest = np.tile(oldBest, (m, 1))
+    coefficient = np.eye(size, size)
     for i in range(m):
-        a,b = rd.randint(i*n,i*n+n-1),rd.randint(i*n,i*n+n-1)
-        coefficient[[a,b],:] = coefficient[[b,a],:]
-    return (coefficient.dot(oldBest))
+        # get the different number
+        a,b = op_get_diffnumber(i * n,i * n + n)
+        coefficient[[a, b], :] = coefficient[[b, a], :]
+    newBest = coefficient.dot(oldBest)
+    return op_getBest(newBest,m,n)
+
 
 
 if __name__ == '__main__':
-    oldBest = np.array([1,1,0,1,0,1])
-    print(op_swap(oldBest,2000,6).shape)
+    oldBest = np.array([1, 1, 0, 1, 0, 1])
+    print(op_swap(oldBest, 1, 6))

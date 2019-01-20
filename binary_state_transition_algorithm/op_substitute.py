@@ -4,7 +4,7 @@ __date__ = '2019/1/19 22:50'
 
 import numpy as np
 import random as rd
-
+from binary_state_transition_algorithm.op_getBest import op_getBest
 def op_substitute(oldBest, m, n):
     '''
        :param oldBest:the matrix shape is (m*n,1)
@@ -19,9 +19,9 @@ def op_substitute(oldBest, m, n):
     coefficient = np.eye(size, size)
     for i in range(m):
         a = rd.randint(i * n, i * n + n - 1)
-        print(a)
         coefficient[a, a] = 0
-    return (coefficient.dot(oldBest))
+    newBest = coefficient.dot(oldBest)
+    return op_getBest(newBest, m, n)
 
 
 if __name__ == '__main__':

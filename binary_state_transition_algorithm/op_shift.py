@@ -4,6 +4,8 @@ __date__ = '2019/1/19 21:26'
 
 import numpy as np
 import random as rd
+from binary_state_transition_algorithm.op_getBest import op_getBest
+from binary_state_transition_algorithm.op_get_diffnumber import op_get_diffnumber
 
 
 def op_shift(oldBest, m, n):
@@ -19,9 +21,10 @@ def op_shift(oldBest, m, n):
     oldBest = np.tile(oldBest, (m, 1))
     coefficient = np.eye(size, size)
     for i in range(m):
-        a, b, c = rd.randint(i * n, i * n + n - 1), rd.randint(i * n, i * n + n - 1), rd.randint(i * n, i * n + n - 1)
+        a, b ,c= op_get_diffnumber(i * n, i * n + n,3)
         coefficient[[a, b, c], :] = coefficient[[b, c, a], :]
-    return (coefficient.dot(oldBest))
+    newBest = coefficient.dot(oldBest)
+    return op_getBest(newBest, m, n)
 
 
 if __name__ == '__main__':

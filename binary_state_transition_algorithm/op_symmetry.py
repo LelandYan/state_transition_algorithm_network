@@ -3,9 +3,8 @@ __author__ = 'LelandYan'
 __date__ = '2019/1/19 22:05'
 
 import numpy as np
-import random as rd
-
-
+from binary_state_transition_algorithm.op_get_diffnumber import op_get_diffnumber
+from binary_state_transition_algorithm.op_getBest import op_getBest
 def op_symmetry(oldBest, m, n):
     '''
        :param oldBest:the matrix shape is (m*n,1)
@@ -20,14 +19,11 @@ def op_symmetry(oldBest, m, n):
     coefficient = np.eye(size, size)
     for i in range(m):
         # get the different number(a,b)
-        s = rd.sample(range(i * n, i * n + n), 2)
-        a = s[0]
-        b = s[1]
-        if a > b:
-            a,b = b,a
+        a, b = op_get_diffnumber(i * n, i * n + n)
         s = coefficient[a:b, :]
         coefficient[a:b, :] = s[::-1,:]
-    return (coefficient.dot(oldBest))
+    newBest = coefficient.dot(oldBest)
+    return op_getBest(newBest, m, n)
 
 if __name__ == '__main__':
     oldBest = np.array([1, 1, 0, 1, 0, 1])

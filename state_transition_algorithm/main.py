@@ -6,6 +6,7 @@ from STA import *
 from functools import reduce
 from operator import mul
 import math
+import numpy as np
 import matplotlib.pyplot as plt
 
 
