@@ -2,10 +2,7 @@
 __author__ = 'LelandYan'
 __date__ = '2019/1/19 23:13'
 
-from binary_state_transition_algorithm.op_swap import op_swap
-from binary_state_transition_algorithm.op_substitute import op_substitute
-from binary_state_transition_algorithm.op_shift import op_shift
-from binary_state_transition_algorithm.op_symmetry import op_symmetry
+from binary_state_transition_algorithm.operation import *
 import pandas as pd
 import random as rd
 import numpy as np
@@ -34,7 +31,6 @@ def b_sta():
         new_one, accuracy, feature = op_shift(new_one,POP_SIZE,value_len)
         new_one, accuracy, feature = op_symmetry(new_one, POP_SIZE, value_len)
         new_one, accuracy, feature = op_substitute(new_one, POP_SIZE, value_len)
-
     print("acc:",accuracy,"  ","the number of features:",feature)
 
 

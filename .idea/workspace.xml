@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8b476f-869e-4511-a32d-789532a69b02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/csv_result-ALL-AML_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/fitness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/op_getBest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/op_get_diffnumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/operation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STA-Python版使用细则.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/state_transition_algorithm/STA-Python版使用细则.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/BSTA.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_shift.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/op_shift.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_substitute.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/op_substitute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_swap.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/op_swap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_symmetry.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/op_symmetry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state_transition_algorithm/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/state_transition_algorithm/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_getBest.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_getBest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_get_diffnumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_get_diffnumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_shift.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_shift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_substitute.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_substitute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_swap.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_swap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_state_transition_algorithm/op_symmetry.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_symmetry.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +21,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/state_transition_algorithm_network$fitness.coverage" NAME="fitness Coverage Results" MODIFIED="1547955810584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_state_transition_algorithm" />
     <SUITE FILE_PATH="coverage/state_transition_algorithm_network$op_substitute.coverage" NAME="op_substitute Coverage Results" MODIFIED="1547909721148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_state_transition_algorithm" />
-    <SUITE FILE_PATH="coverage/state_transition_algorithm_network$main.coverage" NAME="main Coverage Results" MODIFIED="1547957378358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_state_transition_algorithm" />
+    <SUITE FILE_PATH="coverage/state_transition_algorithm_network$main.coverage" NAME="main Coverage Results" MODIFIED="1547962000883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_state_transition_algorithm" />
     <SUITE FILE_PATH="coverage/state_transition_algorithm_network$op_rotate.coverage" NAME="op_rotate Coverage Results" MODIFIED="1547857330582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/state_transition_algorithm_network$op_symmetry.coverage" NAME="op_symmetry Coverage Results" MODIFIED="1547909357156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binary_state_transition_algorithm" />
     <SUITE FILE_PATH="coverage/state_transition_algorithm_network$op_translation.coverage" NAME="op_translation Coverage Results" MODIFIED="1547858393348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -49,26 +43,26 @@
         <counts>
           <entry key="csv" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="62" />
+          <entry key="py" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="62" />
+          <entry key="Python" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="6229" />
+          <entry key="py" value="6256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="6229" />
+          <entry key="Python" value="6256" />
         </counts>
       </usages-collector>
     </session>
@@ -76,10 +70,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_swap.py">
+        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_swap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="e#79#97#0" expanded="true" />
                 <marker date="1547955554232" expanded="true" signature="276:281" ph="..." />
@@ -89,10 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_getBest.py">
+        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_getBest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+            <state relative-caret-position="150">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="61" />
               <folding>
                 <marker date="1547957351941" expanded="true" signature="171:172" ph="..." />
               </folding>
@@ -101,75 +95,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_substitute.py">
+        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_substitute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="7" selection-start-line="7" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="e#79#97#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_shift.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-              <folding>
-                <element signature="e#79#97#0" expanded="true" />
-                <marker date="1547955554273" expanded="true" signature="298:299" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_symmetry.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding>
-                <element signature="e#79#97#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-              <folding>
-                <element signature="e#79#97#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_get_diffnumber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <marker date="1547954441872" expanded="true" signature="132:133" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-              <folding>
-                <element signature="e#80#141#0" expanded="true" />
-                <marker date="1547957378343" expanded="true" signature="455:456" ph="..." />
-                <marker date="1547957378343" expanded="true" signature="455:1077" ph="..." />
               </folding>
             </state>
           </provider>
@@ -178,12 +109,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/fitness.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="46" />
+            <state>
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#79#130#0" expanded="true" />
                 <marker date="1547956675721" expanded="true" signature="457:588" ph="..." />
-                <marker date="1547956675721" expanded="true" signature="646:739" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_shift.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+              <folding>
+                <marker date="1547955554273" expanded="true" signature="298:299" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_symmetry.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              <folding>
+                <element signature="e#79#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_get_diffnumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <marker date="1547954441872" expanded="true" signature="132:133" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <element signature="e#79#136#0" expanded="true" />
+                <marker date="1547962000865" expanded="true" signature="243:244" ph="..." />
+                <marker date="1547962000865" expanded="true" signature="243:865" ph="..." />
               </folding>
             </state>
           </provider>
@@ -192,7 +172,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-900" />
+            <state relative-caret-position="181">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+              <folding>
+                <element signature="e#78#96#0" expanded="true" />
+                <element signature="e#112#659#0" />
+                <element signature="e#697#1290#0" />
+                <element signature="e#1917#2422#0" />
+                <element signature="e#2460#2515#0" />
+                <element signature="e#2550#2846#0" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -234,6 +233,7 @@
         <option value="$PROJECT_DIR$/binary_state_transition_algorithm/test.py" />
         <option value="$PROJECT_DIR$/binary_state_transition_algorithm/fitness.py" />
         <option value="$PROJECT_DIR$/binary_state_transition_algorithm/op_getBest.py" />
+        <option value="$PROJECT_DIR$/binary_state_transition_algorithm/operation.py" />
         <option value="$PROJECT_DIR$/binary_state_transition_algorithm/main.py" />
       </list>
     </option>
@@ -244,11 +244,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-185" />
-    <option name="y" value="142" />
-    <option name="width" value="1433" />
-    <option name="height" value="1034" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="137" />
+    <option name="y" value="187" />
+    <option name="width" value="1434" />
+    <option name="height" value="1083" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -289,6 +289,7 @@
       <recent name="C:\Users\lenovo\Desktop\state_transition_algorithm_network\binary_state_transition_algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\state_transition_algorithm_network\binary_state_transition_algorithm\operations" />
       <recent name="C:\Users\lenovo\Desktop\state_transition_algorithm_network\state_transition_algorithm" />
       <recent name="C:\Users\lenovo\Desktop\state_transition_algorithm_network\operation" />
     </key>
@@ -363,7 +364,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_state_transition_algorithm/op_shift.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lenovo\Desktop\state_transition_algorithm_network\binary_state_transition_algorithm\operations\op_shift.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -385,7 +386,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_state_transition_algorithm/op_swap.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lenovo\Desktop\state_transition_algorithm_network\binary_state_transition_algorithm\operations\op_swap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,14 +448,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-148" y="114" width="1146" height="827" extended-state="1" />
+    <frame x="-7" y="-7" width="1476" height="878" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.171875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17136812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.70461094" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43892616" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +470,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.008272059" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.0063469675" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -568,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/anaconda/envs/tensorflow/Lib/site-packages/numpy/lib/twodim_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="139" column="4" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_coefficient_matrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -649,39 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/fitness.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#79#130#0" expanded="true" />
-            <marker date="1547956675721" expanded="true" signature="457:588" ph="..." />
-            <marker date="1547956675721" expanded="true" signature="646:739" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_shift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <element signature="e#79#97#0" expanded="true" />
-            <marker date="1547955554273" expanded="true" signature="298:299" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_symmetry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="e#79#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -692,25 +654,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_substitute.py">
+    <entry file="file://E:/anaconda/envs/tensorflow/Lib/site-packages/numpy/lib/twodim_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="e#79#97#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="122">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900" />
+        <state relative-caret-position="181">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_swap.py">
+    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_swap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="e#79#97#0" expanded="true" />
             <marker date="1547955554232" expanded="true" signature="276:281" ph="..." />
@@ -718,34 +679,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_getBest.py">
+    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_substitute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="23" selection-end-column="36" />
           <folding>
-            <marker date="1547957351941" expanded="true" signature="171:172" ph="..." />
+            <element signature="e#79#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/op_get_diffnumber.py">
+    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_shift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="161">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding>
+            <marker date="1547955554273" expanded="true" signature="298:299" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_symmetry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="e#79#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_get_diffnumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <marker date="1547954441872" expanded="true" signature="132:133" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operations/op_getBest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <marker date="1547957351941" expanded="true" signature="171:172" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/fitness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#79#130#0" expanded="true" />
+            <marker date="1547956675721" expanded="true" signature="457:588" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        <state relative-caret-position="300">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
-            <element signature="e#80#141#0" expanded="true" />
-            <marker date="1547957378343" expanded="true" signature="455:456" ph="..." />
-            <marker date="1547957378343" expanded="true" signature="455:1077" ph="..." />
+            <element signature="e#79#136#0" expanded="true" />
+            <marker date="1547962000865" expanded="true" signature="243:244" ph="..." />
+            <marker date="1547962000865" expanded="true" signature="243:865" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_state_transition_algorithm/operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+          <folding>
+            <element signature="e#78#96#0" expanded="true" />
+            <element signature="e#112#659#0" />
+            <element signature="e#697#1290#0" />
+            <element signature="e#1917#2422#0" />
+            <element signature="e#2460#2515#0" />
+            <element signature="e#2550#2846#0" />
           </folding>
         </state>
       </provider>
