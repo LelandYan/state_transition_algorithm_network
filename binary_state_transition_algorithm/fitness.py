@@ -4,7 +4,7 @@ __date__ = '2019/1/20 10:09'
 
 from binary_state_transition_algorithm import model
 import pandas as pd
-
+from binary_state_transition_algorithm import svm_model
 # the path and name of file
 CSV_FILE_PATH = 'csv_result-ALL-AML_train.csv'
 # read the file
@@ -26,4 +26,5 @@ def translate(pop):
 def fitness(Best):
     newBest = translate(Best.flatten())
     data = input_data[:,newBest]
-    return model.Neural_Network().__int__(data, result)[0]
+    return svm_model.svm_model(data,result)
+    #return model.Neural_Network().__int__(data, result)[0]

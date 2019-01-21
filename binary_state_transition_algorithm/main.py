@@ -7,11 +7,11 @@ import pandas as pd
 import random as rd
 import numpy as np
 
-N_GENERATIONS = 50
+N_GENERATIONS = 500
 POP_SIZE = 20
 
 def b_sta():
-    CSV_FILE_PATH = 'csv_result-ALL-AML_train.csv'
+    CSV_FILE_PATH = 'parkinsons.csv'
     # read the file
     df = pd.read_csv(CSV_FILE_PATH)
     shapes = df.values.shape
