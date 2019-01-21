@@ -6,9 +6,12 @@ from binary_state_transition_algorithm.operation import *
 import pandas as pd
 import random as rd
 import numpy as np
+import warnings
 
-N_GENERATIONS = 500
-POP_SIZE = 20
+warnings.filterwarnings("ignore", category=FutureWarning, module='sklearn', lineno=196)
+N_GENERATIONS = 100
+POP_SIZE = 50
+
 
 def b_sta():
     CSV_FILE_PATH = 'parkinsons.csv'
@@ -27,11 +30,11 @@ def b_sta():
     accuracy = 0
     feature = 0
     for i in range(N_GENERATIONS):
-        new_one,accuracy,feature = op_swap(new_one,POP_SIZE,value_len)
-        new_one, accuracy, feature = op_shift(new_one,POP_SIZE,value_len)
+        new_one, accuracy, feature = op_swap(new_one, POP_SIZE, value_len)
+        new_one, accuracy, feature = op_shift(new_one, POP_SIZE, value_len)
         new_one, accuracy, feature = op_symmetry(new_one, POP_SIZE, value_len)
         new_one, accuracy, feature = op_substitute(new_one, POP_SIZE, value_len)
-    print("acc:",accuracy,"  ","the number of features:",feature)
+    print("acc:", accuracy, "  ", "the number of features:", feature)
 
 
 if __name__ == '__main__':

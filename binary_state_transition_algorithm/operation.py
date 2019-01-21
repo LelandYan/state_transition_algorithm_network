@@ -96,6 +96,6 @@ def op_getBest(newBest, m, n):
     accuracy = []
     for i in range(m):
         features.append(newBest[i * n:i * n + n, :].sum())
-        accuracy.append(fitness(newBest[m * n:m * n + n, :]))
+        accuracy.append(fitness(newBest[i * n:i * n + n, :]))
     index = accuracy.index(max(accuracy))
     return newBest[index * n:index * n + n, :], accuracy[index], features[index]
